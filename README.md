@@ -13,6 +13,7 @@
 * shishang_android：基于Android Studio的前端安卓app设计代码
 * shishang_springboot：基于SpringBoot的后端代码设计与实现
 * shishang_web：基于Vue的后台管理系统设计与实现
+* images：README文档图片
 
 
 
@@ -88,11 +89,15 @@
 
 作品演示链接：https://pan.baidu.com/s/10monlpvhHfWfbxfyZIVaWA?pwd=o7at 
 
+链接目录：
+
 * 食尚-介绍pdf
 * 食尚-软件介绍完整版-8分51秒.mp4
 * 食尚-软件演示单版-3分33秒.mp4
 
 
 
-感谢~
+
+
+感谢~~
 
