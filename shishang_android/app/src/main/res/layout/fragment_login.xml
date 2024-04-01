@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/login_status_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="@string/my"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/login_slogan"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/login_userid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="18dp"
+            android:hint="@string/user"
+            android:lines="1"
+            app:met_autoValidate="true"
+            app:met_errorColor="@color/red_200"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelText="@string/user"
+            app:met_iconLeft="@drawable/ic_user"
+            app:met_iconPadding="6dp"
+            app:met_maxCharacters="16"
+            app:met_singleLineEllipsis="false" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="18dp"
+            android:digits="01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.+-*/?@"
+            android:hint="@string/password_8_16"
+            android:inputType="textPassword"
+            android:lines="1"
+            app:met_autoValidate="true"
+            app:met_errorColor="@color/red_200"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelText="@string/password"
+            app:met_iconLeft="@drawable/ic_password"
+            app:met_iconPadding="6dp"
+            app:met_maxCharacters="16"
+            app:met_singleLineEllipsis="false" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/background_green"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/register_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/register_tip"
+            android:textColor="@color/grey_400"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/login_other"
+                android:layout_marginTop="-24dp"
+                android:gravity="center"
+                android:text="@string/login_other"
+                android:textColor="@color/grey_400"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/login_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="20dp">
+                <ImageButton
+                    android:id="@+id/login_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/ic_phone" />
+
+                <ImageButton
+                    android:id="@+id/login_wechat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:src="@drawable/ic_wechat" />
+
+                <ImageButton
+                    android:id="@+id/login_qq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/ic_penguin" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_status_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool_bar_login"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:navigationIcon="@drawable/ic_menu">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:text="@string/my"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.allen.library.SuperTextView
+            android:id="@+id/login_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            app:sLeftBottomTextColor="@color/grey_400"
+            app:sLeftBottomTextSize="14sp"
+            app:sLeftBottomTextString="  "
+            app:sLeftIconHeight="48dp"
+            app:sLeftIconRes="@drawable/ic_default_image"
+            app:sLeftIconShowCircle="true"
+            app:sLeftIconWidth="48dp"
+            app:sLeftTopTextSize="16sp"
+            app:sLeftTopTextString="  "
+            app:sLeftViewGravity="left_center"
+            app:sRightIconRes="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+        <com.flyco.tablayout.SlidingTabLayout
+            android:id="@+id/login_tabs"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            app:tl_indicator_color="@color/red"
+            app:tl_indicator_corner_radius="3dp"
+            app:tl_indicator_gravity="BOTTOM"
+            app:tl_indicator_height="4dp"
+            app:tl_indicator_margin_bottom="6dp"
+            app:tl_indicator_width="30dp"
+            app:tl_textBold="BOTH"
+            app:tl_textSelectColor="@color/black_200"
+            app:tl_textUnselectColor="@color/grey_400"
+            app:tl_textsize="15sp" />
+
+        <com.liang.dietitian.customView.NoScrollViewPager
+            android:id="@+id/login_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

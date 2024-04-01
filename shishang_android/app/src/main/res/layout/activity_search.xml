@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_searchview"
+        android:focusable="true"
+        android:imeOptions="actionSearch"
+        app:defaultQueryHint="@string/search"
+        app:iconifiedByDefault="false"
+        app:queryBackground="@drawable/bg_searchview" />
+
+    <LinearLayout
+        android:id="@+id/search_history_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/history"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/search_history_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clear"
+                android:textStyle="bold"
+                android:textColor="@color/red"
+                android:layout_marginRight="10dp"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <co.lujun.androidtagview.TagContainerLayout
+            android:id="@+id/search_history_tag_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            app:tag_clickable="true"
+            app:tag_theme="none"
+            app:container_background_color="@color/white"
+            app:container_border_color="@color/transparent"
+            app:tag_background_color="@color/score_shallow"
+            app:tag_border_color="@color/transparent"
+            app:tag_ripple_duration="500"
+            />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.liang.dietitian.customView.ListViewForScrollView
+                android:id="@+id/food_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:divider="@color/transparent"
+                android:fadingEdge="none"
+                android:footerDividersEnabled="false"
+                android:listSelector="@color/transparent"
+                android:scrollbars="none" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

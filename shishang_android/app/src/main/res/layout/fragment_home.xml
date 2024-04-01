@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/open_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="14dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_menu" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_view"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_searchview"
+            app:defaultQueryHint="@string/search"
+            app:iconifiedByDefault="false"
+            android:layout_weight="1"
+            app:queryBackground="@drawable/bg_searchview" />
+
+        <Button
+            android:id="@+id/button_camera"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="14dp"
+            android:background="@drawable/ic_camera" />
+
+    </LinearLayout>
+
+
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/tabs"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        app:tl_indicator_color="@color/red"
+        app:tl_indicator_corner_radius="3dp"
+        app:tl_indicator_gravity="BOTTOM"
+        app:tl_indicator_height="4dp"
+        app:tl_indicator_margin_bottom="6dp"
+        app:tl_indicator_width="30dp"
+        app:tl_textBold="BOTH"
+        app:tl_textSelectColor="@color/black_200"
+        app:tl_textUnselectColor="@color/grey_400"
+        app:tl_textsize="15sp" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

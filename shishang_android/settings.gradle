@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+        // 1.添加MobSDK Maven地址
+        maven { allowInsecureProtocol = true  //加这个是因为mob会被判定为不安全的协议而无法引入
+            url "http://mvn.mob.com/android"}
+    }
+}
+rootProject.name = "Dietitian"
+include ':app'
+include ':filter-lib'

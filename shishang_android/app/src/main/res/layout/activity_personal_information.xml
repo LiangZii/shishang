@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="个人信息"
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"/>
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageView_head"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        app:riv_corner_radius_bottom_left="50dp"
+        app:riv_corner_radius_bottom_right="50dp"
+        app:riv_corner_radius_top_left="50dp"
+        app:riv_corner_radius_top_right="50dp" />
+
+    <TextView
+        android:id="@+id/textViewxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 修改昵称                                                      "
+        android:textSize="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@drawable/ic_baseline_insert_emoticon_24"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+    <TextView
+        android:id="@+id/tvpassword"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 修改密码                                                      "
+        android:textSize="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@drawable/ic_baseline_keyboard_24"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+    <TextView
+        android:id="@+id/textViewQuit"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="退出登录"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

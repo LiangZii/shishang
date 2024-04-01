@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group>
+        <item
+            android:id="@+id/menu_drawer_left_history"
+            android:icon="@drawable/ic_history"
+            android:title="@string/history"
+            />
+        <item
+            android:id="@+id/menu_drawer_left_choose"
+            android:icon="@drawable/ic_choose"
+            android:title="@string/random_eat"
+            />
+    </group>
+
+
+    <item android:title="控制">
+        <menu>
+            <item
+                android:id="@+id/menu_drawer_left_exit"
+                android:icon="@drawable/ic_exit"
+                android:title="@string/exit"
+                />
+        </menu>
+    </item>
+
+
+
+
+</menu>

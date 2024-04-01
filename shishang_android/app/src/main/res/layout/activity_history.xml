@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar_history"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:navigationIcon="@drawable/ic_baseline_chevron_left_24">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="@string/history"
+            android:textColor="@color/grey_400"
+            android:textSize="18sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <com.yanzhenjie.recyclerview.SwipeRecyclerView
+        android:id="@+id/swipe_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:divider="@color/transparent"
+        android:fadingEdge="none"
+        android:footerDividersEnabled="false"
+        android:listSelector="@color/transparent"
+        android:scrollbars="none"
+        app:layoutManager="LinearLayoutManager"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

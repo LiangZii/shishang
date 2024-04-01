@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/food_detail_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black_200"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        android:textIsSelectable="true"/>
+
+
+    <com.liang.dietitian.customView.RoundImageView
+        android:id="@+id/food_detail_img"
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="center" />
+
+    <TextView
+        android:id="@+id/food_detail_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black_200"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="18sp"
+        android:textIsSelectable="true"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+<!--    这种方案其实是两层堆叠起来的，底层使用灰色，在灰色的上面堆叠一层白色，白色层底部比灰色层上1px，造成画出一条1px的线条的错觉。-->
+    <!-- 连框颜色值 -->
+    <item>
+        <shape>
+            <solid android:color="@color/purple" />
+        </shape>
+    </item>
+    <!-- 主体背景颜色值 -->
+    <item
+        android:bottom="3px">
+        <shape>
+            <padding android:bottom="7dp"></padding>
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+</layer-list>

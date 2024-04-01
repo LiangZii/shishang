@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="search">#FFF0F0F0</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey_200">#FFD6D6D6</color>
+    <color name="grey_400">#FF9C9A9A</color>
+    <color name="score_shallow">#FFF5F5F5</color>
+    <color name="score_deep">#FF646464</color>
+
+    <color name="green">#FF07C160</color>
+    <color name="red">#FFFB6650</color>
+    <color name="red_200">#FF2100</color>
+    <color name="purple">#E0AEF3</color>
+    <color name="purple200">#F3E7F7</color>
+    <color name="black_200">#FF323232</color>
+    <color name="transparent">#00000000</color>
+</resources>

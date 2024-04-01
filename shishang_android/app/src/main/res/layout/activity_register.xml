@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar_register"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:navigationIcon="@drawable/ic_baseline_chevron_left_24">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="@string/register"
+            android:textColor="@color/grey_400"
+            android:textSize="18sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/register_slogan"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/register_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:met_errorColor="@color/red_200"
+        app:met_iconLeft="@drawable/ic_user_name"
+        app:met_iconPadding="6dp"
+        app:met_singleLineEllipsis="false"
+        android:lines="1"
+        android:hint="@string/username"
+        app:met_floatingLabelText="@string/username"
+        app:met_floatingLabel="normal"
+        app:met_maxCharacters="16"
+        app:met_autoValidate="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="18dp"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/register_userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:met_errorColor="@color/red_200"
+        app:met_iconLeft="@drawable/ic_user"
+        app:met_iconPadding="6dp"
+        app:met_singleLineEllipsis="false"
+        android:lines="1"
+        android:hint="@string/user"
+        app:met_floatingLabelText="@string/user"
+        app:met_floatingLabel="normal"
+        app:met_maxCharacters="16"
+        app:met_autoValidate="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="18dp"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:met_errorColor="@color/red_200"
+        app:met_iconLeft="@drawable/ic_password"
+        app:met_iconPadding="6dp"
+        app:met_singleLineEllipsis="false"
+        android:lines="1"
+        android:hint="@string/password_8_16"
+        app:met_floatingLabelText="@string/password"
+        app:met_floatingLabel="normal"
+        app:met_maxCharacters="16"
+        app:met_autoValidate="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="18dp"
+        android:inputType="textPassword"
+        android:digits="01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.+-*/?@"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/register_password_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:met_errorColor="@color/red_200"
+        app:met_iconLeft="@drawable/ic_password"
+        app:met_iconPadding="6dp"
+        app:met_singleLineEllipsis="false"
+        android:lines="1"
+        android:hint="@string/password_confirm"
+        app:met_floatingLabelText="@string/password_confirm"
+        app:met_floatingLabel="normal"
+        app:met_maxCharacters="16"
+        app:met_autoValidate="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="18dp"
+        android:inputType="textPassword"
+        android:digits="01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.+-*/?@"
+        />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_green"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/drawable/background_blue.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/drawable/background_red.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/drawable/background_white.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/drawable/background_yellow.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/drawable/bg_searchview.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/drawable/ic_baseline_image_96.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/drawable/ic_choose.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/drawable/ic_cook.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/drawable/list_item_divider.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/drawable/my_background1.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/drawable/recommend_bottom_line.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/drawable/score_block.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/drawable/test.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/layout/activity_detail.xml" value="0.136" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/layout/activity_search.xml" value="0.144" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/layout/food_detail_item.xml" value="0.12" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/layout/food_home_item.xml" value="0.176" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/layout/food_list_item.xml" value="0.12" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/layout/fragment_choose.xml" value="0.152" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/layout/fragment_cook.xml" value="0.176" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/layout/fragment_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/layout/fragment_test.xml" value="0.152" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/layout/test.xml" value="0.25" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/menu/botton_nav_menu.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/EatHealthy/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/drawable/background_green.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/drawable/background_red.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/drawable/background_yellow.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/drawable/ic_arrow_right.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/drawable/ic_baseline_chevron_left_24.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/drawable/ic_camera.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/drawable/ic_clear.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/drawable/ic_mall.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/drawable/ic_menu.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/activity_choose.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/activity_detail.xml" value="0.18981481481481483" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/activity_history.xml" value="0.17045454545454544" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/activity_publish.xml" value="0.264" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/activity_search.xml" value="0.2" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/blank_fill_layout.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/food_detail_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/food_home_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/food_list_item.xml" value="0.136" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/fragment_choose.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/fragment_cook.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/fragment_home.xml" value="0.536" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/fragment_mall.xml" value="0.264" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/fragment_note.xml" value="0.2390625" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/fragment_recommend.xml" value="0.1" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/fragment_sort.xml" value="0.128" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/fragment_star.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/layout/note_list_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/menu/menu_drawer_left.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang-qian/app/src/main/res/menu/menu_history.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.1045" />
+        <entry key="..\:/MyAndroid/shishang/app/src/main/res/drawable/ic_baseline_error_outline_24.xml" value="0.1045" />
+        <entry key="..\:/MyAndroid/shishang/app/src/main/res/drawable/ic_camera.xml" value="0.1055" />
+        <entry key="..\:/MyAndroid/shishang/app/src/main/res/layout/activity_albums.xml" value="0.2" />
+        <entry key="..\:/MyAndroid/shishang/app/src/main/res/layout/activity_detail.xml" value="0.12335359675785208" />
+        <entry key="..\:/MyAndroid/shishang/app/src/main/res/layout/activity_iphone.xml" value="0.176" />
+        <entry key="..\:/MyAndroid/shishang/app/src/main/res/layout/activity_personal_information.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang/app/src/main/res/layout/activity_publish.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang/app/src/main/res/layout/activity_register.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang/app/src/main/res/layout/button_dialog.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/MyAndroid/shishang/app/src/main/res/layout/fragment_login.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang/app/src/main/res/menu/menu_drawer_left.xml" value="0.25364583333333335" />
+        <entry key="..\:/MyAndroid/shishang/app/src/main/res/menu/menu_history.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

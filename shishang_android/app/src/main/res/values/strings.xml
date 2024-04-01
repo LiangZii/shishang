@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">食尚</string>
+
+    <string name="home">首页</string>
+    <string name="cook">选餐</string>
+    <string name="choose">吃什么</string>
+
+    <string name="search">搜索菜谱</string>
+    <string name="ingredient">用料</string>
+    <string name="step">步骤</string>
+
+    <string name="recommend">推荐</string>
+
+    <string name="refrigerator_chinese">冰箱处理</string>
+
+    <string name="eat_what">今天吃什么?</string>
+    <string name="random_eat">随机推荐</string>
+
+    <string name="error">异常错误</string>
+
+    <string name="history">浏览历史</string>
+    <string name="exit">退出程序</string>
+    <string name="user">用户名</string>
+    <string name="username">昵称</string>
+    <string name="password_8_16">数字、字母和.+-*/?组合</string>
+    <string name="password">密码</string>
+    <string name="password_confirm">确认密码</string>
+    <string name="star">收藏</string>
+    <string name="clear">清空</string>
+
+    <string name="mall_no">目前暂无内容</string>
+
+    <string name="my">我</string>
+    <string name="login_slogan">记录美食 也记录爱。</string>
+    <string name="register_slogan">好好吃一顿饭。</string>
+    <string name="login">登 录</string>
+    <string name="login_other">其他登录方式</string>
+    <string name="register_tip">没有账号？点击去注册</string>
+    <string name="register">注 册</string>
+
+    <string name="publish_note_title">发笔记</string>
+    <string name="publish_note_button">发布</string>
+    <string name="publish_note_headline">有标题，更好看(必填)</string>
+    <string name="publish_note_content">分享你此刻的想法...(必填)</string>
+
+    <string name="publish_to_detail">查详情</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
