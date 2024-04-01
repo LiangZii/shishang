@@ -26,7 +26,7 @@
 
 食尚软件以白色为主题，界面设计上符合现在主流手机软件的设计风格，简洁大方。上方搜索栏与菜单栏，底部为首页与个人信息的切换导航栏，主体部分用点击或滑动的方式可以在多个Tab 间切换界面。这样的界面布局方式可以在手机屏幕有限的空间内展示出更多更复杂具体的信息，并极大的优化了用户的操作体验。
 
-![image-20240401144607491](D:\Program Files\Typora\image\image-20240401144607491.png)
+![image-20240401144607491](https://github.com/LiangZii/shishang/blob/master/images/image-20240401144607491.png)
 
 
 
@@ -35,11 +35,11 @@
 本软件属于C/S 架构模型，前端采用Android Studio 进行开发，后端利用SpringBoot框架开发，并搭载了本团队训练的中餐识别模型与西餐识别模型。
 系统物理架构如下：
 
-![image-20240401143253187](D:\Program Files\Typora\image\image-20240401143253187.png)
+![image-20240401143253187](https://github.com/LiangZii/shishang/blob/master/images/image-20240401143253187.png)
 
 此外，我们还为后台管理人员开发了web 后台管理系统，采用B/S 架构，对数据库中的用户信息，菜谱信息进行可视化集成管理。其系统物理架构如下：
 
-![image-20240401143322800](D:\Program Files\Typora\image\image-20240401143322800.png)
+![image-20240401143322800](https://github.com/LiangZii/shishang/blob/master/images/image-20240401143322800.png)
 
 ## 3.3 逻辑架构设计
 
@@ -52,11 +52,11 @@
 
 系统逻辑架构设计如下：
 
-![image-20240401143509701](D:\Program Files\Typora\image\image-20240401143509701.png)
+![image-20240401143509701](https://github.com/LiangZii/shishang/blob/master/images/image-20240401143509701.png)
 
 **3.3.2** Web 后台管理系统逻辑架构如下：
 
-![image-20240401143609522](D:\Program Files\Typora\image\image-20240401143609522.png)
+![image-20240401143609522](https://github.com/LiangZii/shishang/blob/master/images/image-20240401143609522.png)
 
 
 
@@ -66,23 +66,23 @@
 
 ## 4.1 Android设计
 
-![image-20240401145553607](D:\Program Files\Typora\image\image-20240401145553607.png)
+![image-20240401145553607](https://github.com/LiangZii/shishang/blob/master/images/image-20240401145553607.png)
 
 ##  4.2 SpringBoot设计
 
-![image-20240401145947140](D:\Program Files\Typora\image\image-20240401145947140.png)
+![image-20240401145947140](https://github.com/LiangZii/shishang/blob/master/images/image-20240401145947140.png)
 
 ## 4.3 中餐模型介绍
 
-![image-20240401150717102](D:\Program Files\Typora\image\image-20240401150717102.png)
+![image-20240401150717102](https://github.com/LiangZii/shishang/blob/master/images/image-20240401150717102.png)
 
 ## 4.4 西餐模型介绍
 
-![image-20240401150754307](D:\Program Files\Typora\image\image-20240401150754307.png)
+![image-20240401150754307](https://github.com/LiangZii/shishang/blob/master/images/image-20240401150754307.png)
 
 ## 4.5 技术栈一览
 
-![image-20240401144652632](D:\Program Files\Typora\image\image-20240401144652632.png)
+![image-20240401144652632](https://github.com/LiangZii/shishang/blob/master/images/image-20240401144652632.png)
 
 # 5.演示视频
 
